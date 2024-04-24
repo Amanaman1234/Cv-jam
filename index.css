@@ -45,10 +45,21 @@
     height: 60vh;
 }
 .overmij{
+    display: grid;
     height: 80vh;
-    background-color: #fff5c2;
+    grid-template-columns: 25vw 25vw;
+    background-color: #6dbaef;
     margin-bottom: 9vh;
+    justify-content: center;
+    align-items: center;
 }
+#posing{
+    height: auto;
+    width: 15vw;
+    margin-left: 30vw;
+    opacity: 0.7;
+}
+
 .skills{
     height: 60vh;
     background-color: #fff5c2;
