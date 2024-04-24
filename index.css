@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: grid;
+    width: 100vw;
+    height: 10vh;
+    justify-content: center;
+    grid-template-columns: 20vh 20vh 20vh 20vh;
+    
+}
+.button{
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+}
+.link{
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.body{
+    height: 90vh;
+    width: 100vw;
+    background-color: #fff5c2;
+    background-image: url(./Images/Schermafbeelding\ 2024-04-23\ 130712.png);
+    opacity: 0.8;
+}
